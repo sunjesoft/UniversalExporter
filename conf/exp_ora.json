@@ -1,0 +1,21 @@
+
+
+{
+   "SOURCE" : 
+   { 
+     	"JDBCDriver" : "oracle.jdbc.driver.OracleDriver",   
+     	"JDBCURL" : "jdbc:oracle:thin:@192.168.0.24:1521/ORCL", 
+     	"User" : "c##TEST" , 
+     	"Password" : "PyBO219PWDSDCtdGvC+m+g=="
+   } 
+   "DEST" : 
+   [
+   		{ 
+   			"SQL" : "SELECT * FROM LOB_TEST",
+   			"OutputFileName" : "LOB_TEST.csv" , 
+   			"FieldSeperator" : "," , 
+   			"RowSeperator" : "\n" 
+   		}   
+   ] 
+
+}

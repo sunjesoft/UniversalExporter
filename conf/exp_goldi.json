@@ -1,0 +1,21 @@
+
+
+{
+   "SOURCE" : 
+   { 
+     	"JDBCDriver" : "sunje.goldilocks.jdbc.GoldilocksDriver",   
+     	"JDBCURL" : "jdbc:goldilocks://127.0.0.1:22581/test", 
+     	"User" : "TEST" , 
+     	"Password" : "PyBO219PWDSDCtdGvC+m+g=="
+   }, 
+   "DEST" : 
+   [
+   		{ 
+   			"SQL" : "SELECT * FROM LOB_TEST" ,
+   			"OutputFileName" : "LOB_TEST.txt" , 
+   			"FieldSeperator" : "," , 
+   			"RowSeperator" : "\n" 
+   		}   
+   ] 
+
+}

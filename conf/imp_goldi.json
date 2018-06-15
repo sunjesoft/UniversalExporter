@@ -1,0 +1,22 @@
+
+
+{
+   "DEST" : 
+   { 
+     	"JDBCDriver" : "sunje.goldilocks.jdbc.GoldilocksDriver",   
+     	"JDBCURL" : "jdbc:goldilocks://127.0.0.1:22581/test", 
+     	"User" : "TEST" , 
+     	"Password" : "PyBO219PWDSDCtdGvC+m+g=="
+   }, 
+   "SOURCE" : 
+   [
+   		{ 
+        "CSVFileName" : "LOB_TEST.csv", 
+        "TableName"   : "LOB_TEST" ,
+   		"FieldSeperator" : "," , 
+   		"RowSeperator" : "\n" ,
+        "SQLBeforeHook" : "DELETE FROM LOB_TEST",
+        "SQLAfterHook" : ""
+  		}    
+   ] 
+}
